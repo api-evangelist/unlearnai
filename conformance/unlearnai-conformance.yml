@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.unlearn.ai/digital-twin-generators
+notes: >-
+  Unlearn.AI publishes no developer API, so no API-level standards (OAuth2, OIDC,
+  FHIR, RFC 9457, pagination, idempotency) can be asserted. The company publishes
+  regulatory-grade compliance claims for its Digital Twin Generators platform on
+  its own site: "Built to meet regulatory-grade compliance standards, including
+  GxP, 21 CFR Part 11, and SOC 2 Type 2." No standalone trust center page was
+  found (probed trust.unlearn.ai, /trust, /security, /compliance).
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'https://www.unlearn.ai/digital-twin-generators: "Built to meet regulatory-grade compliance standards, including GxP, 21 CFR Part 11, and SOC 2 Type 2"'
+- id: gxp
+  conforms: true
+  evidence: 'https://www.unlearn.ai/digital-twin-generators: platform built to meet GxP good-practice guidelines'
+- id: 21-cfr-part-11
+  conforms: true
+  evidence: 'https://www.unlearn.ai/digital-twin-generators: platform built to meet FDA 21 CFR Part 11 electronic-records requirements'
+- id: oauth2
+  conforms: false
+  evidence: no public API or securitySchemes published
+- id: fhir
+  conforms: false
+  evidence: no public API; no FHIR claims found on site

@@ -1,8 +1,11 @@
 aid: unlearnai
 name: Unlearn.AI
-description: 'Unlearn.AI is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Unlearn.AI provides an AI-powered platform that streamlines clinical trial development
+  using digital twins of patients and advanced data analytics. Its TrialPioneer workspace spans trial
+  planning and simulation (Scout literature search, Hindsight data exploration, SimLab scenario modeling),
+  advanced trial monitoring with anomaly detection, and digital-twin control-arm forecasting that reduces
+  control arm sizes and shortens enrollment. Backed by Insight Partners; no public developer API surface
+  is published.'
 url: https://raw.githubusercontent.com/api-evangelist/unlearnai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +13,34 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/27824185?v=4
 tags:
 - Company
 - Healthcare
+- Clinical Trials
+- Digital Twins
+- Artificial Intelligence
+- Machine Learning
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,31 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/unlearnai-domain-security.yml
 - type: Website
   url: https://www.unlearn.ai/
+- type: Blog
+  url: https://www.unlearn.ai/blog
+- type: PrivacyPolicy
+  url: https://www.unlearn.ai/privacy
+- type: TermsOfService
+  url: https://www.unlearn.ai/terms
+- type: Careers
+  url: https://www.unlearn.ai/careers
+- type: Press
+  url: https://www.unlearn.ai/press
+- type: About
+  url: https://www.unlearn.ai/about
+- type: GitHubOrganization
+  url: https://github.com/unlearnai
+- type: Packages
+  url: packages/unlearnai-packages.yml
+- type: WellKnown
+  url: well-known/unlearnai-well-known.yml
+- type: LLMsTxt
+  url: llms/unlearnai-llms.txt
+- type: Conformance
+  url: conformance/unlearnai-conformance.yml
+- type: Compliance
+  url: https://www.unlearn.ai/digital-twin-generators

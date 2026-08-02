@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/ + https://github.com/unlearnai
+notes: >-
+  Unlearn.AI publishes no API client SDKs. Its public packages are open-source
+  machine-learning research libraries from the company's physics-inspired AI work,
+  not client libraries for a hosted API. npm, Maven Central, NuGet, pkg.go.dev,
+  RubyGems, Packagist, and crates.io show no first-party packages.
+packages:
+- language: python
+  registry: pypi
+  name: genemunge
+  url: https://pypi.org/project/genemunge/
+  install: pip install genemunge
+  official: true
+  kind: research-library
+  description: Tools for munging genomics data (author Unlearn.AI, Inc.; GitHub repo archived)
+  source_repo: https://github.com/unlearnai/genemunge
+- language: python
+  registry: pypi
+  name: paysage
+  url: https://pypi.org/project/paysage/
+  install: pip install paysage
+  official: true
+  kind: research-library
+  description: Machine learning with energy based models in python (author Unlearn.AI)
+  source_repo: https://github.com/drckf/paysage

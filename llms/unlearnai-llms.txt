@@ -1,0 +1,29 @@
+# Unlearn.AI
+
+> Unlearn.AI streamlines clinical trial development with AI-powered digital twins of patients. Its TrialPioneer workspace covers trial planning and simulation (Scout literature search, Hindsight data exploration, SimLab scenario modeling), advanced trial monitoring with anomaly detection, and Digital Twin Generators that forecast individual disease progression to shrink control arms and shorten enrollment. Unlearn.AI publishes no public developer API; its products are delivered as web applications and secure on-premises/cloud deployments for trial sponsors.
+
+## Products
+
+- [Trial Planning & Simulations](https://www.unlearn.ai/trialplanningandsimulations): TrialPioneer planning workspace (Scout, Hindsight, SimLab)
+- [Advanced Trial Monitoring](https://www.unlearn.ai/advanced-trial-monitoring): anomaly detection and real-time surveillance of patient and site-level clinical data
+- [Digital Twins](https://www.unlearn.ai/digital-twins): digital-twin control-arm forecasting for clinical trials
+- [Digital Twin Generators](https://www.unlearn.ai/digital-twin-generators): sponsor-deployed generative models of disease progression
+
+## Company
+
+- [Website](https://www.unlearn.ai/)
+- [About](https://www.unlearn.ai/about)
+- [Blog](https://www.unlearn.ai/blog)
+- [Press](https://www.unlearn.ai/press)
+- [Careers](https://www.unlearn.ai/careers)
+- [GitHub organization](https://github.com/unlearnai): open-source ML research libraries (neural-boltzmann-machines, genemunge)
+
+## Legal
+
+- [Privacy Policy](https://www.unlearn.ai/privacy)
+- [Terms of Service](https://www.unlearn.ai/terms)
+- [Data Acknowledgements](https://www.unlearn.ai/data-acknowledgements)
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/unlearnai/refs/heads/main/apis.yml)
